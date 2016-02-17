@@ -1,0 +1,7 @@
+build: .
+
+build:
+  context: https://github.com/jontech/aproxy.git
+  container_name: aproxy
+  ports:
+    - "8888:8888"
